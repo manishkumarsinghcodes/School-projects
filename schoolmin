@@ -1,0 +1,136 @@
+<!DOCTYPE>
+<html>
+<head><title>narayan_gurukul</title>
+<style type= "text/css">
+#c
+{
+		color:white;
+		font-weight:bold;
+		position:relative;
+		left:200px;
+	    top:50px;
+		
+}
+div
+{
+	background-color:brown;
+	width:100%;
+	height:180px;
+	top:0px;
+	position:fixed;
+	left:0px;
+	top:0px;
+	margin-left:0px;
+}
+h4
+{
+	color:white;
+	position:relative;
+		left:200px;
+	    top:35px;
+}
+{}
+#a
+{
+	background-color:brown;
+	width:100%;
+	height:39px;
+	position:fixed;
+	left:0px;
+	top:150px;
+	margin-left:0px;
+}
+ul
+{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+ul li a:hover
+{
+	background-color:black;
+}
+ul li a
+{
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+ul  li ul li
+{
+	display:none;
+}
+ul li:hover ul li
+{
+	display:block;
+}
+ul li
+{
+	float:left;
+	width:113px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	background-color:brown;
+}
+#n
+{
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:12px;
+	height:100%;
+	background-color:black;
+}
+</style>
+</head>
+<body>
+	<div>
+	<h1 id="c">NARAYAN GURUKUL,GORIAKOTHI</h1>
+	<h4>An English medium +2 C.B.S.E affiliated school</h4>
+	<img src="downloa2.jpg" STYLE="position:absolute; TOP:0px; LEFT:0px;width:170px;height:150px;" />
+	</div>
+	<div id="a">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="admission.html">Admission</a>
+			<ul>
+				<li><a href="admission1.html">Procedure </a></li>
+				<li><a href="admission2.html">T.C.</a></li>
+				<li><a href="admission3.html">Withdraw policy</a></li>
+				<li><a href="admission.html">TextBook</a></li>
+			</ul>
+			</li>
+			<li><a href="academic.html">Academic</a>
+			<ul>
+				<li><a href="academic2.html">Fee Structure</a></li>
+				<li><a href="academic.html">Sports</a></li>
+			</ul>
+			</li>
+			<li><a href="achievements.html">Achievements</a></li>
+			<li><a href="homework.html">Home work</a></li>
+			<li><a href="examination.html">Examination</a></li>
+			<li><a href="Onlinefee.html">Online Fee</a></li>
+			<li><a href="infrastructure.html">Infrastructure</a></li>
+			<li><a href="faculty.html">Faculty</a></li>
+			<li><a href="gallerydav.html">Gallery</a></li>
+			<li><a href="helpdesk.html">Helpdesk</a>
+			<ul>
+				<li><a href="helpdesk1.html">Contact Us</a></li>
+				<li><a href="helpdesk2.html">Feedback</a></li>
+			</ul>
+			</li>
+		</ul>
+	</div>
+	</div>
+	<div id="n">
+	</div>
+</body>
+</html>
+
+
+
+
+
+

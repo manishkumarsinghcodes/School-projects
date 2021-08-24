@@ -1,0 +1,134 @@
+<!DOCTYPE>
+<html>
+<head><title>enquiry narayan gurukul</title>
+<link rel="stylesheet" href="project.css">
+<style type="text/css">
+#as
+{
+	color:red;
+	font-weight:bold;
+}
+marquee
+{
+	border:solid;
+	background-Color:white;
+}
+</style>
+<script>
+	function effect()
+		{
+			var x=document.getElementById("lovingly");
+			x.style.backgroundColor="white";
+		}
+	function effectback()
+	{
+		var x=document.getElementById("lovingly");
+		x.style.backgroundColor="red";
+	}
+	function effect1()
+		{
+			var x=document.getElementById("form");
+			x.style.backgroundColor="lightblue";
+		}
+	function effectback1()
+	{
+		var x=document.getElementById("form");
+		x.style.backgroundColor="white";
+	}
+</script>
+</head>
+<body>
+<marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"><h1 id="as">
+INSTRUCTION:->Admission enquiry form are available only before 12/05/2020.Interested applicants can apply before the specified date.Admission is provided on first come and first serve basis.
+ Please read the procedure carefully before applying for the admission.</h1>
+</marquee>	
+<h1 id="lovingly"  onmouseover="effect()" onmouseout="effectback()">YOU ARE LOVINGLY WELCOME</H1>
+<form action="submit.php"method="post" id="form" onmouseover="effect1()" onmouseout="effectback1()">
+<h3 id="ins">Fill the form and click register button(CAPITAL LETTER ONLY)</H3>
+<table>
+<tr>
+<td>Name - </td>
+<td><input type="text"class="input" name="sname" placeholder="full name" required></td>
+</tr><tr>
+<td>Father's Name</td>
+<td><input type= "text" class="input" name="fname"placeholder="father's full name" required></td>
+</tr>
+<tr>
+<td>Mother's Name</td>
+<td><input type= "text" class="input" username="lastname" placeholder="mother's full name" required></td>
+</tr>
+<tr>
+<td>e-mail -</td>
+<td><input type= "text" class="input" username="lastname" placeholder="email-id" required></td>
+</tr>
+<tr>
+<td>Password -</td>
+<td><input type="password" class="input" password="password"placeholder="password" required></td>
+<td>(use strong password)</td></tr>
+<tr><td></td>
+<td><input type= "password" class="input" placeholder="re-enter password" required></td>
+<td>(re-enter the password)</td> </tr>
+<tr>
+<td>Gender -</td>
+<td><input type="radio"name="gender"/>M
+<input type="radio"name="gender"/>F</td>
+</tr>
+<tr>
+<td>Previous School-</td>
+<td><input type="text" class="input" weight="weight" placeholder="school name"></td><td>leave blank in case of beginers</td></tr>
+<tr>
+<td>previous %age -</td>
+<td><input type="text" class="input" Height="Height"placeholder="%"></td></tr></br>
+<tr>
+<td>Age -</td>
+<td><input type="text" class="input" Chest="chest"placeholder="age" required></td></tr>
+<tr>
+<td>Sports -</td>
+<td><input type="text"Age="age"class="input"placeholder="sports"></td><td>write none if nothing</td></tr>
+<tr>
+<td>Select Class -</td>
+<td><input type="radio"name="gender"/>Nur
+<input type="radio"name="gender"/>L.K.J
+<input type="radio"name="gender"/>U.K.J
+<input type="radio"name="gender"/>One
+<input type="radio"name="gender"/>Two
+<input type="radio"name="gender"/>Three
+<input type="radio"name="gender"/>Four
+<input type="radio"name="gender"/>Five
+<input type="radio"name="gender"/>Six
+<input type="radio"name="gender"/>Seven
+<input type="radio"name="gender"/>Eight
+<input type="radio"name="gender"/>Nine
+<input type="radio"name="gender"/>Ten
+</td>
+</tr>
+<tr>
+<td>Village - </td>
+<td>
+<select>
+<option>Mirjapur</option>
+<option>Goreakothi</option>
+<option>Harpur</option>
+<option>Lakatola</option>
+<option>Bazidpur</option>
+<option>Jamo</option>
+<option>Mathiyan</option>
+<option>Sadipur</option>
+<option>Shivrajpur</option>
+<option>Ladhi</option>
+<option>Mustafabad</option>
+<option>Pipra</option>
+<option>Sawna</option>
+<option>Dhudhra</option>
+<option>Hetimpur</option>
+<option>Hariharpur</option>
+</select>
+</td>
+</tr>
+</table><br/>
+<p>Make Sure that the above credentials are correct and click the register button if correct and press reset if you want to fill it again.</P>.
+<tr><input type="submit" value="Register"/></tr>
+<tr><input type="reset"/></tr>
+	 
+</body>
+</html>

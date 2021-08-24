@@ -1,0 +1,265 @@
+#contact1
+{
+	margin-top:235;
+	text-decoration:underline;
+}
+#contact2
+{
+	margin-top: -200;
+    margin-left: 618px;
+	text-decoration:underline;
+}
+#feed
+{
+	height: 100;
+    width: 350px;
+}
+#contact3
+{
+	margin-left: 657px;
+}
+#helpdesk
+{
+	margin-top: -23px;
+    margin-left: 283px;
+    border: solid;
+    width: 556px;
+    height: 250;
+    padding: 50px;
+	background-color:khaki;
+}
+#c
+{	
+    color: red;
+    font-weight: bold;
+    position: fixed;
+    left: 200px;
+    top: 209px;
+    margin-top: -149px;
+    margin-left: 44px;
+		
+}
+div
+{
+	background-color:white;
+	width:100%;
+	height:180px;
+	top:0px;
+	position:fixed;
+	left:0px;
+	top:0px;
+	margin-left:0px;
+}
+h4
+{	
+    color: red;
+    position: fixed;
+    left: 247px;
+    top: 35px;
+    margin-top: 76px;
+}
+
+#a
+{
+	background-color:blue;
+	width:100%;
+	height:39px;
+	position:fixed;
+	left:0px;
+	top:150px;
+	margin-left:0px;
+}
+#form
+{
+	border: solid;
+    margin-left: 200;
+    width: 645px;
+    height: 743px;
+    background-color: white;
+	padding:100px;
+	}
+.input
+{
+	width:319px;
+	height:30px;
+}
+#lovingly
+{
+	margin-top: 214px;
+    margin-left: 335px;
+    border: solid;
+    width: 510px;
+    background-color: red;
+}
+#ins
+{
+	margin-top: -12px;
+    font-weight: bolder;
+    margin-left: 28;
+}
+ul
+{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+ul li a:hover
+{
+	background-color:black;
+}
+ul li a
+{
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+ul  li ul li
+{
+	display:none;
+}
+ul li:hover ul li
+{
+	display:block;
+}
+ul li
+{
+	float:left;
+	width:102px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	background-color:blue;
+}
+#i {
+   margin-left: -33px;
+    margin-top: -432px;
+    width: 300px;
+}
+#pr {
+   margin-left: 264px;
+    margin-top: -4px;
+    border: solid;
+    height: 400px;
+    word-spacing: 2px;
+    line-height: 1.5;
+    font-size: 25;
+	background-color:white;
+   
+}
+body{
+	background-color:silver;
+	align:center;
+}
+#fr
+{
+	margin-top: 293px;
+    margin-left: 400px;
+    border: solid;
+    width: 507px;
+    height: 200px;
+    background-color: khaki;
+    padding: 35px;
+}
+#log
+{
+	margin-top: 293px;
+    margin-left: 400px;
+    border: solid;
+    width: 507px;
+    height: 294px;
+    background-color: khaki;
+    padding: 7px;
+}
+#imogi
+{
+	width: 100;
+    background-color: khaki;
+}
+#awanish
+{
+	margin-left: 750;
+    margin-top: 190px;
+    border: solid;
+    padding: 20px;
+    background-color: white;
+    font-size: 30;
+    line-height: 1.5;
+    word-spacing: 2.0;
+    color: palevioletred;
+}
+#achievement
+{
+	margin-left: -564px;
+    margin-top: -1290px;
+    width: 1300;
+    height: 1800;
+}
+#last {
+    background-color: red;
+    margin-top: 300px;
+    width: 100%;
+    height: 400px;
+	position:relative;
+	margin-left:0px;
+	margin-right:0px;
+}
+#img {
+    width: 157px;
+    margin-top: -326px;
+    margin-left: 614px;
+}
+#dir{
+	margin-top: -265px;
+    margin-left: 800;
+	color:white;
+}
+#about {
+    margin-left: 417px;
+    margin-top: 200px;
+    border: solid;
+    background-color: green;
+    margin-right: 521px;
+}
+#aboutfee{
+    margin-left: 417px;
+    margin-top: 200px;
+    border: solid;
+    background-color: green;
+    margin-right: 670px;
+}
+#aboutpro {
+    margin-left: 215px;
+    margin-top: 200px;
+    border: solid;
+    background-color: green;
+    padding: 30;
+    width: 800;
+}
+#aboutschool{
+	border:solid;
+	color:blue;
+	background-color:khaki;
+	line-height:2.0;
+	word-spacing:4;
+	font-size:30;
+	font-weight:bolder;
+}
+#aboutprocedure{
+	border:solid;
+	color:blue;
+	background-color:khaki;
+	line-height:2.0;
+	word-spacing:4;
+	font-size:30;
+	font-weight:bolder;
+}
+#admin{
+	
+	margin-left: 7px;
+    margin-top: 350px;
+    font-size: 30;
+}
+
+
+
+

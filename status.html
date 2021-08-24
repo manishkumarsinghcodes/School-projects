@@ -1,0 +1,88 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>status check enquiry form</title>
+<link rel="stylesheet" href="project.css">
+<script>
+	function effect()
+		{
+			var x=document.getElementById("fr");
+			x.style.backgroundColor="green";
+		}
+	function effectback()
+	{
+		var x=document.getElementById("fr");
+		x.style.backgroundColor="red";
+	}
+</script>
+</head>
+<body>
+<script>
+	alert("You can check your status only when you have done enquiry,if you have not done your enquiry then first do that");
+</script>
+<div>
+	<h1 id="c">NARAYAN GURUKUL,GORIAKOTHI</h1>
+	<h4>An English medium +2 C.B.S.E affiliated school</h4>
+	<img src="downloa2.jpg" STYLE="position:absolute; TOP:0px; LEFT:0px;width:170px;height:150px;" />
+	</div>
+	<div id="a">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="aboutus.html">About Us</a>
+			<ul>
+					<li><a href="saying.html">Saying</a></li>
+				</ul></li>
+			<li><a>Admission</a>
+			<ul>
+				<li><a href="procedure.html">Procedure </a></li>
+				<li><a href="enquiry.html">Enquiry</a></li>
+				<li><a href="feestructure.html">Fee Structure </a></li>
+			</ul>	
+			</li>
+			<li><a href="status.html">Status</a></li>
+			<li><a href="achievements.html">Achievements</a></li>
+			<li><a href="exam.pdf.pdf">Examination</a></li>
+			<li><a href="Onlinefee.html">Online Fee</a></li>
+			<li><a href="registration.html">Registration</a></li>
+			<li><a href="faculty.html">Faculty</a></li>
+			<li><a href="galleryng.html">Gallery</a></li>
+			<li><a href="notice.html">Notice</a></li>
+			<li><a>Helpdesk</a>
+			<ul>
+				<li><a href="helpdesk1.html">Contact Us</a></li>
+				<li><a href="helpdesk2.html">Feedback</a></li>
+			</ul>
+			</li>
+			<li><a>Login</a>
+				<ul>
+					<li><a href="student.html">Student</a></li>
+					<li><a href="parent.html">Parent</a></li>
+					<li><a href="faculty1.html">Faculty</a></li>
+					<li><a href="principle.html">Principle</a></li>
+					<li><a href="clerk.html">Clerk</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	</div>
+	<form action="status.php"  method="post" id="fr" onmouseover="effect()"  onmouseout="effectback()" >
+	<table>
+		<tr>
+			<td>Userid</td>
+			<td><input type="text" onclick="Javascript:checkEmail()" class="input" Username="first name"placeholder="username"required></td>
+		</tr>
+		<tr>   </tr><tr>   </tr><tr>   </tr><tr>   </tr><tr>   </tr><tr>   </tr><tr>   </tr>
+		<tr>
+			<td>Password - </td>
+			<td><input type="password"class="input" Password="password"placeholder="password"required></td>
+		</tr>
+		<tr>   </tr><tr>   </tr><tr>   </tr><tr>   </tr><tr>   </tr><tr>   </tr>
+		<tr>
+			<td><input type="submit" name="submit"/></td>
+			<td><input type="reset" name="reset"/></td>
+		</tr>
+	</table>
+	<h3>Plz make sure that the above credentials are correct and then only click on the submit button. </h3>
+	</form>
+</body>
+</html>
